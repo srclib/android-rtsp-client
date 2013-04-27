@@ -1,0 +1,212 @@
+No.     Time        Source                Destination           Protocol Info
+   1818 21.563203   192.168.0.208         192.168.0.102         RTSP     OPTIONS rtsp://192.168.0.102/sample_50kbit.3gp RTSP/1.0
+
+Frame 1818 (202 bytes on wire, 202 bytes captured)
+Ethernet II, Src: Dell_36:94:b4 (00:15:c5:36:94:b4), Dst: Dell_01:0c:c9 (00:13:72:01:0c:c9)
+Internet Protocol, Src: 192.168.0.208 (192.168.0.208), Dst: 192.168.0.102 (192.168.0.102)
+Transmission Control Protocol, Src Port: 41265 (41265), Dst Port: rtsp (554), Seq: 1, Ack: 1, Len: 136
+Real Time Streaming Protocol
+    Request: OPTIONS rtsp://192.168.0.102/sample_50kbit.3gp RTSP/1.0\r\n
+    CSeq: 1\r\n
+    User-Agent: VLC media player (LIVE555 Streaming Media v2009.07.27)\r\n
+    \r\n
+
+No.     Time        Source                Destination           Protocol Info
+   1820 21.595716   192.168.0.102         192.168.0.208         RTSP     Reply: RTSP/1.0 200 OK
+
+Frame 1820 (249 bytes on wire, 249 bytes captured)
+Ethernet II, Src: Dell_01:0c:c9 (00:13:72:01:0c:c9), Dst: Dell_36:94:b4 (00:15:c5:36:94:b4)
+Internet Protocol, Src: 192.168.0.102 (192.168.0.102), Dst: 192.168.0.208 (192.168.0.208)
+Transmission Control Protocol, Src Port: rtsp (554), Dst Port: 41265 (41265), Seq: 1, Ack: 137, Len: 183
+Real Time Streaming Protocol
+    Response: RTSP/1.0 200 OK\r\n
+    Server: DSS/5.5.5 (Build/489.16; Platform/Linux; Release/Darwin; state/beta; )\r\n
+    Cseq: 1\r\n
+    Public: DESCRIBE, SETUP, TEARDOWN, PLAY, PAUSE, OPTIONS, ANNOUNCE, RECORD\r\n
+    \r\n
+
+No.     Time        Source                Destination           Protocol Info
+   1822 21.596249   192.168.0.208         192.168.0.102         RTSP     DESCRIBE rtsp://192.168.0.102/sample_50kbit.3gp RTSP/1.0
+
+Frame 1822 (228 bytes on wire, 228 bytes captured)
+Ethernet II, Src: Dell_36:94:b4 (00:15:c5:36:94:b4), Dst: Dell_01:0c:c9 (00:13:72:01:0c:c9)
+Internet Protocol, Src: 192.168.0.208 (192.168.0.208), Dst: 192.168.0.102 (192.168.0.102)
+Transmission Control Protocol, Src Port: 41265 (41265), Dst Port: rtsp (554), Seq: 137, Ack: 184, Len: 162
+Real Time Streaming Protocol
+    Request: DESCRIBE rtsp://192.168.0.102/sample_50kbit.3gp RTSP/1.0\r\n
+    CSeq: 2\r\n
+    Accept: application/sdp\r\n
+    User-Agent: VLC media player (LIVE555 Streaming Media v2009.07.27)\r\n
+    \r\n
+
+No.     Time        Source                Destination           Protocol Info
+   1823 21.631362   192.168.0.102         192.168.0.208         RTSP/SDP Reply: RTSP/1.0 200 OK, with session description
+
+Frame 1823 (1015 bytes on wire, 1015 bytes captured)
+Ethernet II, Src: Dell_01:0c:c9 (00:13:72:01:0c:c9), Dst: Dell_36:94:b4 (00:15:c5:36:94:b4)
+Internet Protocol, Src: 192.168.0.102 (192.168.0.102), Dst: 192.168.0.208 (192.168.0.208)
+Transmission Control Protocol, Src Port: rtsp (554), Dst Port: 41265 (41265), Seq: 184, Ack: 299, Len: 949
+Real Time Streaming Protocol
+    Response: RTSP/1.0 200 OK\r\n
+    Server: DSS/5.5.5 (Build/489.16; Platform/Linux; Release/Darwin; state/beta; )\r\n
+    Cseq: 2\r\n
+    Last-Modified: Mon, 07 Dec 2009 20:54:53 GMT\r\n
+    Cache-Control: must-revalidate\r\n
+    Content-length: 516
+    Date: Mon, 04 Jan 2010 18:42:54 GMT\r\n
+    Expires: Mon, 04 Jan 2010 18:42:54 GMT\r\n
+    Content-type: application/sdp
+    x-Accept-Retransmit: our-retransmit\r\n
+    x-Accept-Dynamic-Rate: 1\r\n
+    Content-Base: rtsp://192.168.0.102/sample_50kbit.3gp/\r\n
+    \r\n
+    Session Description Protocol
+        Session Description Protocol Version (v): 0
+        Owner/Creator, Session Id (o): StreamingServer 3471619374 1260219293000 IN IP4 192.168.0.102
+        Session Name (s): /sample_50kbit.3gp
+        URI of Description (u): http:///
+        E-mail Address (e): admin@
+        Connection Information (c): IN IP4 0.0.0.0
+        Bandwidth Information (b): AS:50
+        Time Description, active time (t): 0 0
+        Session Attribute (a): control:*
+        Session Attribute (a): range:npt=0-  70.00000
+        Media Description, name and address (m): video 0 RTP/AVP 96
+        Bandwidth Information (b): AS:41
+        Media Attribute (a): rtpmap:96 MP4V-ES/90000
+        Media Attribute (a): control:trackID=3
+        Media Attribute (a): cliprect:0,0,144,176
+        Media Attribute (a): framesize:96 176-144
+        Media Attribute (a): fmtp:96 profile-level-id=1;config=000001B008000001B50EE040C0CF0000010000000120008440FA282C2090A21F
+        Media Description, name and address (m): audio 0 RTP/AVP 97
+        Bandwidth Information (b): AS:8
+        Media Attribute (a): rtpmap:97 AMR/8000/1
+        Media Attribute (a): control:trackID=4
+        Media Attribute (a): fmtp:97 octet-align=1
+
+No.     Time        Source                Destination           Protocol Info
+   1825 21.633325   192.168.0.208         192.168.0.102         RTSP     SETUP rtsp://192.168.0.102/sample_50kbit.3gp/trackID=3 RTSP/1.0
+
+Frame 1825 (262 bytes on wire, 262 bytes captured)
+Ethernet II, Src: Dell_36:94:b4 (00:15:c5:36:94:b4), Dst: Dell_01:0c:c9 (00:13:72:01:0c:c9)
+Internet Protocol, Src: 192.168.0.208 (192.168.0.208), Dst: 192.168.0.102 (192.168.0.102)
+Transmission Control Protocol, Src Port: 41265 (41265), Dst Port: rtsp (554), Seq: 299, Ack: 1133, Len: 196
+Real Time Streaming Protocol
+    Request: SETUP rtsp://192.168.0.102/sample_50kbit.3gp/trackID=3 RTSP/1.0\r\n
+    CSeq: 3\r\n
+    Transport: RTP/AVP;unicast;client_port=41120-41121
+    User-Agent: VLC media player (LIVE555 Streaming Media v2009.07.27)\r\n
+    \r\n
+
+No.     Time        Source                Destination           Protocol Info
+   1826 21.634421   192.168.0.102         192.168.0.208         RTSP     Reply: RTSP/1.0 200 OK
+
+Frame 1826 (466 bytes on wire, 466 bytes captured)
+Ethernet II, Src: Dell_01:0c:c9 (00:13:72:01:0c:c9), Dst: Dell_36:94:b4 (00:15:c5:36:94:b4)
+Internet Protocol, Src: 192.168.0.102 (192.168.0.102), Dst: 192.168.0.208 (192.168.0.208)
+Transmission Control Protocol, Src Port: rtsp (554), Dst Port: 41265 (41265), Seq: 1133, Ack: 495, Len: 400
+Real Time Streaming Protocol
+    Response: RTSP/1.0 200 OK\r\n
+    Server: DSS/5.5.5 (Build/489.16; Platform/Linux; Release/Darwin; state/beta; )\r\n
+    Cseq: 3\r\n
+    Last-Modified: Mon, 07 Dec 2009 20:54:53 GMT\r\n
+    Cache-Control: must-revalidate\r\n
+    Session: 52736469221045220
+    Date: Mon, 04 Jan 2010 18:42:54 GMT\r\n
+    Expires: Mon, 04 Jan 2010 18:42:54 GMT\r\n
+    Transport: RTP/AVP;unicast;source=192.168.0.102;client_port=41120-41121;server_port=6970-6971;ssrc=046475D4
+    \r\n
+
+No.     Time        Source                Destination           Protocol Info
+   1827 21.639129   192.168.0.208         192.168.0.102         RTSP     SETUP rtsp://192.168.0.102/sample_50kbit.3gp/trackID=4 RTSP/1.0
+
+Frame 1827 (290 bytes on wire, 290 bytes captured)
+Ethernet II, Src: Dell_36:94:b4 (00:15:c5:36:94:b4), Dst: Dell_01:0c:c9 (00:13:72:01:0c:c9)
+Internet Protocol, Src: 192.168.0.208 (192.168.0.208), Dst: 192.168.0.102 (192.168.0.102)
+Transmission Control Protocol, Src Port: 41265 (41265), Dst Port: rtsp (554), Seq: 495, Ack: 1533, Len: 224
+Real Time Streaming Protocol
+    Request: SETUP rtsp://192.168.0.102/sample_50kbit.3gp/trackID=4 RTSP/1.0\r\n
+    CSeq: 4\r\n
+    Transport: RTP/AVP;unicast;client_port=37072-37073
+    Session: 52736469221045220
+    User-Agent: VLC media player (LIVE555 Streaming Media v2009.07.27)\r\n
+    \r\n
+
+No.     Time        Source                Destination           Protocol Info
+   1828 21.640531   192.168.0.102         192.168.0.208         RTSP     Reply: RTSP/1.0 200 OK
+
+Frame 1828 (466 bytes on wire, 466 bytes captured)
+Ethernet II, Src: Dell_01:0c:c9 (00:13:72:01:0c:c9), Dst: Dell_36:94:b4 (00:15:c5:36:94:b4)
+Internet Protocol, Src: 192.168.0.102 (192.168.0.102), Dst: 192.168.0.208 (192.168.0.208)
+Transmission Control Protocol, Src Port: rtsp (554), Dst Port: 41265 (41265), Seq: 1533, Ack: 719, Len: 400
+Real Time Streaming Protocol
+    Response: RTSP/1.0 200 OK\r\n
+    Server: DSS/5.5.5 (Build/489.16; Platform/Linux; Release/Darwin; state/beta; )\r\n
+    Cseq: 4\r\n
+    Session: 52736469221045220
+    Last-Modified: Mon, 07 Dec 2009 20:54:53 GMT\r\n
+    Cache-Control: must-revalidate\r\n
+    Date: Mon, 04 Jan 2010 18:42:54 GMT\r\n
+    Expires: Mon, 04 Jan 2010 18:42:54 GMT\r\n
+    Transport: RTP/AVP;unicast;source=192.168.0.102;client_port=37072-37073;server_port=6970-6971;ssrc=4D48FD67
+    \r\n
+
+No.     Time        Source                Destination           Protocol Info
+   1830 21.643151   192.168.0.208         192.168.0.102         RTSP     PLAY rtsp://192.168.0.102/sample_50kbit.3gp/ RTSP/1.0
+
+Frame 1830 (247 bytes on wire, 247 bytes captured)
+Ethernet II, Src: Dell_36:94:b4 (00:15:c5:36:94:b4), Dst: Dell_01:0c:c9 (00:13:72:01:0c:c9)
+Internet Protocol, Src: 192.168.0.208 (192.168.0.208), Dst: 192.168.0.102 (192.168.0.102)
+Transmission Control Protocol, Src Port: 41265 (41265), Dst Port: rtsp (554), Seq: 719, Ack: 1933, Len: 181
+Real Time Streaming Protocol
+    Request: PLAY rtsp://192.168.0.102/sample_50kbit.3gp/ RTSP/1.0\r\n
+    CSeq: 5\r\n
+    Session: 52736469221045220
+    Range: npt=0.000-\r\n
+    User-Agent: VLC media player (LIVE555 Streaming Media v2009.07.27)\r\n
+    \r\n
+
+No.     Time        Source                Destination           Protocol Info
+   1831 21.658949   192.168.0.102         192.168.0.208         RTSP     Reply: RTSP/1.0 200 OK
+
+Frame 1831 (405 bytes on wire, 405 bytes captured)
+Ethernet II, Src: Dell_01:0c:c9 (00:13:72:01:0c:c9), Dst: Dell_36:94:b4 (00:15:c5:36:94:b4)
+Internet Protocol, Src: 192.168.0.102 (192.168.0.102), Dst: 192.168.0.208 (192.168.0.208)
+Transmission Control Protocol, Src Port: rtsp (554), Dst Port: 41265 (41265), Seq: 1933, Ack: 900, Len: 339
+Real Time Streaming Protocol
+    Response: RTSP/1.0 200 OK\r\n
+    Server: DSS/5.5.5 (Build/489.16; Platform/Linux; Release/Darwin; state/beta; )\r\n
+    Cseq: 5\r\n
+    Session: 52736469221045220
+    Range: npt=0.00000-70.00000\r\n
+    RTP-Info: url=rtsp://192.168.0.102/sample_50kbit.3gp/trackID=3;seq=59111;rtptime=1788084935,url=rtsp://192.168.0.102/sample_50kbit.3gp/trackID=4;seq=18194;rtptime=973064749\r\n
+    \r\n
+
+No.     Time        Source                Destination           Protocol Info
+   3267 34.934229   192.168.0.208         192.168.0.102         RTSP     TEARDOWN rtsp://192.168.0.102/sample_50kbit.3gp/ RTSP/1.0
+
+Frame 3267 (232 bytes on wire, 232 bytes captured)
+Ethernet II, Src: Dell_36:94:b4 (00:15:c5:36:94:b4), Dst: Dell_01:0c:c9 (00:13:72:01:0c:c9)
+Internet Protocol, Src: 192.168.0.208 (192.168.0.208), Dst: 192.168.0.102 (192.168.0.102)
+Transmission Control Protocol, Src Port: 41265 (41265), Dst Port: rtsp (554), Seq: 900, Ack: 2272, Len: 166
+Real Time Streaming Protocol
+    Request: TEARDOWN rtsp://192.168.0.102/sample_50kbit.3gp/ RTSP/1.0\r\n
+    CSeq: 6\r\n
+    Session: 52736469221045220
+    User-Agent: VLC media player (LIVE555 Streaming Media v2009.07.27)\r\n
+    \r\n
+
+No.     Time        Source                Destination           Protocol Info
+   3268 34.934936   192.168.0.102         192.168.0.208         RTSP     Reply: RTSP/1.0 200 OK
+
+Frame 3268 (221 bytes on wire, 221 bytes captured)
+Ethernet II, Src: Dell_01:0c:c9 (00:13:72:01:0c:c9), Dst: Dell_36:94:b4 (00:15:c5:36:94:b4)
+Internet Protocol, Src: 192.168.0.102 (192.168.0.102), Dst: 192.168.0.208 (192.168.0.208)
+Transmission Control Protocol, Src Port: rtsp (554), Dst Port: 41265 (41265), Seq: 2272, Ack: 1066, Len: 155
+Real Time Streaming Protocol
+    Response: RTSP/1.0 200 OK\r\n
+    Server: DSS/5.5.5 (Build/489.16; Platform/Linux; Release/Darwin; state/beta; )\r\n
+    Cseq: 6\r\n
+    Session: 52736469221045220
+    Connection: Close\r\n
+    \r\n

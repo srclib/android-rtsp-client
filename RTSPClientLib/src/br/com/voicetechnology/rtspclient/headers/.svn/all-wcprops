@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/headers
+END
+BaseIntegerHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/headers/BaseIntegerHeader.java
+END
+CSeqHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/headers/CSeqHeader.java
+END
+ContentLengthHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/headers/ContentLengthHeader.java
+END
+ContentTypeHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/headers/ContentTypeHeader.java
+END
+TransportHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/headers/TransportHeader.java
+END
+BaseStringHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/headers/BaseStringHeader.java
+END
+ContentEncodingHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/headers/ContentEncodingHeader.java
+END
+SessionHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/headers/SessionHeader.java
+END

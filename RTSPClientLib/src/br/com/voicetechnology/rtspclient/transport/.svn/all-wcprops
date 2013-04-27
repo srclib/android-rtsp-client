@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/transport
+END
+SafeTransportListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/transport/SafeTransportListener.java
+END
+PlainTCP.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/transport/PlainTCP.java
+END

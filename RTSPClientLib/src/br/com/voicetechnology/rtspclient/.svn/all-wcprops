@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient
+END
+MissingHeaderException.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/MissingHeaderException.java
+END
+RTSPRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/RTSPRequest.java
+END
+IncompleteMessageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/IncompleteMessageException.java
+END
+RTSPMessageFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/trunk/src/br/com/voicetechnology/rtspclient/RTSPMessageFactory.java
+END
+RTSPClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/src/br/com/voicetechnology/rtspclient/RTSPClient.java
+END
+RTSPResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/RTSPResponse.java
+END
+InvalidMessageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/InvalidMessageException.java
+END
+RTSPEntityMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/RTSPEntityMessage.java
+END
+HeaderMismatchException.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/src/br/com/voicetechnology/rtspclient/HeaderMismatchException.java
+END
+RTSPMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/4/trunk/src/br/com/voicetechnology/rtspclient/RTSPMessage.java
+END
